@@ -104,6 +104,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
+            Image.asset('Images/1.png',width: 500,height: 500,),
+            Divider(),
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
